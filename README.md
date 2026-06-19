@@ -88,4 +88,7 @@ git restore <file>
 
 # Revert a commit
 git revert <commit-hash>
+
+# Move HEAD one commit back (hard reset)
+git reset --hard HEAD~1
 ```
